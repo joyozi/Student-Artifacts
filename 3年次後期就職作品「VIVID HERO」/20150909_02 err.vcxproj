@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F09A185D-7710-4B47-88DC-50348C5BA50C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>My20150909_02err</RootNamespace>
+    <ProjectName>GameProject</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="code\CBullet000.cpp" />
+    <ClCompile Include="code\CBullet001.cpp" />
+    <ClCompile Include="code\CBulletHoming.cpp" />
+    <ClCompile Include="code\CBulletPatternDegeneracyshot.cpp" />
+    <ClCompile Include="code\CBulletPatternEnemy000.cpp" />
+    <ClCompile Include="code\CBulletPatternEnemy001.cpp" />
+    <ClCompile Include="code\CCamera.cpp" />
+    <ClCompile Include="code\CCameraGame.cpp" />
+    <ClCompile Include="code\CCharaMove.cpp" />
+    <ClCompile Include="code\CDebugProc.cpp" />
+    <ClCompile Include="code\CDegeneracyAnimation.cpp" />
+    <ClCompile Include="code\CDegeneracyPolygon.cpp" />
+    <ClCompile Include="code\CDegeneracyStar.cpp" />
+    <ClCompile Include="code\CEnemy000.cpp" />
+    <ClCompile Include="code\CEnemy001.cpp" />
+    <ClCompile Include="code\CEnemybullet000.cpp" />
+    <ClCompile Include="code\CEnemyBullet001.cpp" />
+    <ClCompile Include="code\CEnemyIcon.cpp" />
+    <ClCompile Include="code\CEnemyPattern000.cpp" />
+    <ClCompile Include="code\CEnemyPatternRandam.cpp" />
+    <ClCompile Include="code\CEnemyWave.cpp" />
+    <ClCompile Include="code\CExplosion.cpp" />
+    <ClCompile Include="code\CFade.cpp" />
+    <ClCompile Include="code\CGameStart.cpp" />
+    <ClCompile Include="code\CHitCheck.cpp" />
+    <ClCompile Include="code\CInput_Controller.cpp" />
+    <ClCompile Include="code\CItemList.cpp" />
+    <ClCompile Include="code\CLight.cpp" />
+    <ClCompile Include="code\CManager.cpp" />
+    <ClCompile Include="code\CMeshBasisClass.cpp" />
+    <ClCompile Include="code\CMeshHitCheckBall.cpp" />
+    <ClCompile Include="code\CMeshSky.cpp" />
+    <ClCompile Include="code\CMiniMap.cpp" />
+    <ClCompile Include="code\CMissileGaze.cpp" />
+    <ClCompile Include="code\CParticleEngine.cpp" />
+    <ClCompile Include="code\CParticleSystem.cpp" />
+    <ClCompile Include="code\CPause.cpp" />
+    <ClCompile Include="code\CPhase.cpp" />
+    <ClCompile Include="code\CPhaseChange.cpp" />
+    <ClCompile Include="code\CPhaseGame.cpp" />
+    <ClCompile Include="code\CPhaseResult.cpp" />
+    <ClCompile Include="code\CPhaseTitle.cpp" />
+    <ClCompile Include="code\CPlayerModel.cpp" />
+    <ClCompile Include="code\CPlayerMotionChanger.cpp" />
+    <ClCompile Include="code\CPlayerMotionPatternDamaged.cpp" />
+    <ClCompile Include="code\CPlayerMotionPatternDash.cpp" />
+    <ClCompile Include="code\CPlayerMotionPatternDie.cpp" />
+    <ClCompile Include="code\CPlayerMotionPatternMelee.cpp" />
+    <ClCompile Include="code\CPlayerMotionPatternMissile.cpp" />
+    <ClCompile Include="code\CPlayerMotionPatternNormal.cpp" />
+    <ClCompile Include="code\CPlayerMotionPatternShot.cpp" />
+    <ClCompile Include="code\CPlayerMotionPatternSwordAttack.cpp" />
+    <ClCompile Include="code\CPlayerMotionPatternSwordAttack_2nd.cpp" />
+    <ClCompile Include="code\CPrayerMotionPatternRapidDown.cpp" />
+    <ClCompile Include="code\CPrayerMotionPatternRapidUp.cpp" />
+    <ClCompile Include="code\CScene.cpp" />
+    <ClCompile Include="code\CScene2D.cpp" />
+    <ClCompile Include="code\CScene3D.cpp" />
+    <ClCompile Include="code\CSceneBillboard.cpp" />
+    <ClCompile Include="code\CSceneMeshOrbit.cpp" />
+    <ClCompile Include="code\CSceneModelMotion.cpp" />
+    <ClCompile Include="code\CSceneModelParts.cpp" />
+    <ClCompile Include="code\CSceneStencilShadow.cpp" />
+    <ClCompile Include="code\CSceneX.cpp" />
+    <ClCompile Include="code\CScore.cpp" />
+    <ClCompile Include="code\CTargetUI.cpp" />
+    <ClCompile Include="code\CTextureManager.cpp" />
+    <ClCompile Include="code\CTimer.cpp" />
+    <ClCompile Include="code\CTitleMenu.cpp" />
+    <ClCompile Include="code\CXFileManager.cpp" />
+    <ClCompile Include="code\CExplosion000.cpp" />
+    <ClCompile Include="code\input.cpp" />
+    <ClCompile Include="code\joystick.cpp" />
+    <ClCompile Include="code\main.cpp" />
+    <ClCompile Include="code\Renderer.cpp" />
+    <ClCompile Include="code\sound.cpp" />
+    <ClCompile Include="code\WndProc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\CBullet000.h" />
+    <ClInclude Include="code\CBullet001.h" />
+    <ClInclude Include="code\CBulletHoming.h" />
+    <ClInclude Include="code\CBulletPattern.h" />
+    <ClInclude Include="code\CBulletPattern1Shot.h" />
+    <ClInclude Include="code\CBulletPatternDegeneracyShot.h" />
+    <ClInclude Include="code\CBulletPatternEnemy000.h" />
+    <ClInclude Include="code\CBulletPatternEnemy001.h" />
+    <ClInclude Include="code\CBulletPatternHoming.h" />
+    <ClInclude Include="code\CCamera.h" />
+    <ClInclude Include="code\CCameraGame.h" />
+    <ClInclude Include="code\CCharaMove.h" />
+    <ClInclude Include="code\CCommonData.h" />
+    <ClInclude Include="code\CDebugProc.h" />
+    <ClInclude Include="code\CDegeneracyAnimation.h" />
+    <ClInclude Include="code\CDegeneracyPolygon.h" />
+    <ClInclude Include="code\CDegeneracyStar.h" />
+    <ClInclude Include="code\CEnemy000.h" />
+    <ClInclude Include="code\CEnemy001.h" />
+    <ClInclude Include="code\CEnemybullet000.h" />
+    <ClInclude Include="code\CEnemyBullet001.h" />
+    <ClInclude Include="code\CEnemyIcon.h" />
+    <ClInclude Include="code\CEnemyPattern.h" />
+    <ClInclude Include="code\CEnemyPattern000.h" />
+    <ClInclude Include="code\CEnemyPatternRandam.h" />
+    <ClInclude Include="code\CEnemyPatternStop.h" />
+    <ClInclude Include="code\CEnemyWave.h" />
+    <ClInclude Include="code\CExplosion.h" />
+    <ClInclude Include="code\CFade.h" />
+    <ClInclude Include="code\CGameStart.h" />
+    <ClInclude Include="code\CHitCheck.h" />
+    <ClInclude Include="code\CInput_Controller.h" />
+    <ClInclude Include="code\CItemList.h" />
+    <ClInclude Include="code\CLight.h" />
+    <ClInclude Include="code\CManager.h" />
+    <ClInclude Include="code\CMeshBasisClass.h" />
+    <ClInclude Include="code\CMeshHitCheckBall.h" />
+    <ClInclude Include="code\CMeshSky.h" />
+    <ClInclude Include="code\CMiniMap.h" />
+    <ClInclude Include="code\CMissileGaze.h" />
+    <ClInclude Include="code\CParticleEngine.h" />
+    <ClInclude Include="code\CParticleSystem.h" />
+    <ClInclude Include="code\CPause.h" />
+    <ClInclude Include="code\CPhase.h" />
+    <ClInclude Include="code\CPhaseChange.h" />
+    <ClInclude Include="code\CPhaseGame.h" />
+    <ClInclude Include="code\CPhaseResult.h" />
+    <ClInclude Include="code\CPhaseTitle.h" />
+    <ClInclude Include="code\CPlayerModel.h" />
+    <ClInclude Include="code\CPlayerMotionChanger.h" />
+    <ClInclude Include="code\CPlayerMotionPattern.h" />
+    <ClInclude Include="code\CPlayerMotionPatternDamaged.h" />
+    <ClInclude Include="code\CPlayerMotionPatternDash.h" />
+    <ClInclude Include="code\CPlayerMotionPatternDie.h" />
+    <ClInclude Include="code\CPlayerMotionPatternMelee.h" />
+    <ClInclude Include="code\CPlayerMotionPatternMissile.h" />
+    <ClInclude Include="code\CPlayerMotionPatternNormal.h" />
+    <ClInclude Include="code\CPlayerMotionPatternShot.h" />
+    <ClInclude Include="code\CPlayerMotionPatternSwordAttack.h" />
+    <ClInclude Include="code\CPlayerMotionPatternRapidDown.h" />
+    <ClInclude Include="code\CPlayerMotionPatternRapidUp.h" />
+    <ClInclude Include="code\CPlayerMotionPatternSwordAttack_2nd.h" />
+    <ClInclude Include="code\CScene.h" />
+    <ClInclude Include="code\CScene2D.h" />
+    <ClInclude Include="code\CScene3D.h" />
+    <ClInclude Include="code\CSceneBillboard.h" />
+    <ClInclude Include="code\CSceneMeshOrbit.h" />
+    <ClInclude Include="code\CSceneModelMotion.h" />
+    <ClInclude Include="code\CSceneModelParts.h" />
+    <ClInclude Include="code\CSceneStencilShadow.h" />
+    <ClInclude Include="code\CSceneX.h" />
+    <ClInclude Include="code\CScore.h" />
+    <ClInclude Include="code\CStructure.h" />
+    <ClInclude Include="code\CTargetUI.h" />
+    <ClInclude Include="code\CTextureManager.h" />
+    <ClInclude Include="code\CTimer.h" />
+    <ClInclude Include="code\CTitleMenu.h" />
+    <ClInclude Include="code\CXFileManager.h" />
+    <ClInclude Include="code\data.h" />
+    <ClInclude Include="code\CExplosion000.h" />
+    <ClInclude Include="code\CBulletPatternNone.h" />
+    <ClInclude Include="code\input.h" />
+    <ClInclude Include="code\joystick.h" />
+    <ClInclude Include="code\main.h" />
+    <ClInclude Include="code\Renderer.h" />
+    <ClInclude Include="code\resource.h" />
+    <ClInclude Include="code\sound.h" />
+    <ClInclude Include="code\WndProc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GM31.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,104 @@
+﻿2015/09/01 17:19:02 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\touma.yoshihiro\Documents\2年の科目\G3\AKRカバディ2\20140526_真っ暗ウィンドウ.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\20140526_真っ暗ウィンドウ.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt effect.cpp enemy.cpp explosion.cpp fade.cpp fade_loadingnow.cpp gakutyou.cpp GameBG.cpp game.cpp game_countdown.cpp hitjudge.cpp input.cpp main.cpp GamePlayer.cpp pause.cpp result.cpp ResultBG.cpp ResultPolygon.cpp score.cpp sound.cpp tittle.cpp TittleBG.cpp TittlePolygon.cpp
+         TittlePolygon.cpp
+         TittleBG.cpp
+         tittle.cpp
+         sound.cpp
+         score.cpp
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\score.cpp(116): warning C4244: '引数' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\score.cpp(116): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\score.cpp(138): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\score.cpp(139): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\score.cpp(140): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\score.cpp(141): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\score.cpp(178): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\score.cpp(179): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\score.cpp(180): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\score.cpp(181): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+         ResultPolygon.cpp
+         ResultBG.cpp
+         result.cpp
+         pause.cpp
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\pause.cpp(313): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\pause.cpp(314): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\pause.cpp(315): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\pause.cpp(316): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+         GamePlayer.cpp
+         main.cpp
+         input.cpp
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\input.cpp(96): warning C4101: 'nID' : ローカル変数は 1 度も使われていません。
+         hitjudge.cpp
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\hitjudge.cpp(59): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\hitjudge.cpp(61): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+         game_countdown.cpp
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(57): warning C4244: '引数' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(57): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(76): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(77): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(78): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(79): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(91): warning C4244: '引数' : 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(92): warning C4244: '引数' : 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(93): warning C4244: '引数' : 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(94): warning C4244: '引数' : 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(157): warning C4244: '引数' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(157): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(173): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(174): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(175): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>c:\users\touma.yoshihiro\documents\2年の科目\g3\akrカバディ2\game_countdown.cpp(176): warning C4244: '引数' : 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+         game.cpp
+         GameBG.cpp
+         gakutyou.cpp
+         fade_loadingnow.cpp
+         fade.cpp
+         explosion.cpp
+         コードを生成中...
+         コンパイル中...
+         enemy.cpp
+         effect.cpp
+         コードを生成中...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\20140526_真っ暗ウィンドウ.exe.embed.manifest.res" "Debug\20140526_真っ暗ウィンドウ_manifest.rc" 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\touma.yoshihiro\Documents\2年の科目\G3\AKRカバディ2\20140526_真っ暗ウィンドウ.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\20140526_真っ暗ウィンドウ.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\touma.yoshihiro\Documents\2年の科目\G3\AKRカバディ2\20140526_真っ暗ウィンドウ.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\touma.yoshihiro\Documents\2年の科目\G3\AKRカバディ2\20140526_真っ暗ウィンドウ.lib" /MACHINE:X86 "Debug\20140526_真っ暗ウィンドウ.exe.embed.manifest.res"
+         Debug\effect.obj
+         Debug\enemy.obj
+         Debug\explosion.obj
+         Debug\fade.obj
+         Debug\fade_loadingnow.obj
+         Debug\gakutyou.obj
+         Debug\GameBG.obj
+         Debug\game.obj
+         Debug\game_countdown.obj
+         Debug\hitjudge.obj
+         Debug\input.obj
+         Debug\main.obj
+         Debug\GamePlayer.obj
+         Debug\pause.obj
+         Debug\result.obj
+         Debug\ResultBG.obj
+         Debug\ResultPolygon.obj
+         Debug\score.obj
+         Debug\sound.obj
+         Debug\tittle.obj
+         Debug\TittleBG.obj
+         Debug\TittlePolygon.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\20140526_真っ暗ウィンドウ.exe.embed.manifest" /manifest "Debug\20140526_真っ暗ウィンドウ.exe.intermediate.manifest"
+         すべての出力が最新のものです。
+       LinkEmbedManifest:
+         すべての出力が最新のものです。
+         20140526_真っ暗ウィンドウ.vcxproj -> C:\Users\touma.yoshihiro\Documents\2年の科目\G3\AKRカバディ2\20140526_真っ暗ウィンドウ.exe
+       FinalizeBuildStatus:
+         ファイル "Debug\20140526_真っ暗ウィンドウ.unsuccessfulbuild" を削除しています。
+         "Debug\20140526_真っ暗ウィンドウ.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\touma.yoshihiro\Documents\2年の科目\G3\AKRカバディ2\20140526_真っ暗ウィンドウ.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:01:12.99

@@ -1,0 +1,222 @@
+#==============================================================================
+#
+# MotionViwer用スクリプトファイル
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 13
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+#>>******************** [ここからコメントアウト] ********************
+MODEL_FILENAME = data/MODEL/Prayer/00_Hchest.x
+MODEL_FILENAME = data/MODEL/Prayer/01_Hhead.x
+MODEL_FILENAME = data/MODEL/Prayer/02_Hhip.x
+MODEL_FILENAME = data/MODEL/Prayer/03_HarmL.x
+MODEL_FILENAME = data/MODEL/Prayer/04_HhandL.x
+MODEL_FILENAME = data/MODEL/Prayer/12_ShiningBlade.x
+MODEL_FILENAME = data/MODEL/Prayer/05_HarmR.x
+MODEL_FILENAME = data/MODEL/Prayer/06_HhandR.x
+MODEL_FILENAME = data/MODEL/Prayer/11_Hweapon.x
+MODEL_FILENAME = data/MODEL/Prayer/07_HlegL.x
+MODEL_FILENAME = data/MODEL/Prayer/08_HfootL.x
+MODEL_FILENAME = data/MODEL/Prayer/09_HlegR.x
+MODEL_FILENAME = data/MODEL/Prayer/10_HfootR.x
+#<<******************** [ここまでコメントアウト] ********************
+
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+#>>******************** [ここからコメントアウト] ********************
+
+#	>>を付けることにより、C言語の /*  */と同じ効果を得る
+
+CHARACTERSET
+	NUM_PARTS = 13					# パーツ数
+
+		PARTSSET
+		INDEX = 0					# 胴体
+		PARENT = -1					# 
+		POS = 0.0 100.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 1					# 頭
+		PARENT = 0					
+		POS = 0.0 38.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 2					# 腰
+		PARENT = 0				
+		POS = 0.0 3.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 3					# 左腕
+		PARENT = 0					
+		POS = 24.0 26.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 4					# 左手
+		PARENT = 3					# 
+		POS = 0.0 -24.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 5					#シャイニングブレード
+		PARENT = 4
+		POS = 0.0 -30.0 -3.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 6					# 右腕
+		PARENT = 0					
+		POS = -24.0 26.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 7					#右手
+		PARENT = 6					#
+		POS = 0.0 -24.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 8					#銃
+		PARENT = 7
+		POS = 0.0 -40.0 -5.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 9					# 左太もも
+		PARENT = 2					
+		POS = 12.0 -10.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 10					#左足
+		PARENT = 9					
+		POS = 0.0 -30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 11					#右太もも
+		PARENT = 2			
+		POS = -12.0 -10.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 12					#右足
+		PARENT = 11
+		POS = 0.0 -30.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+
+END_CHARACTERSET
+
+
+#<<******************** [ここまでコメントアウト] ********************
+
+
+#---------------------------------------
+# タイトル
+#---------------------------------------
+
+MOTIONSET
+	LOOP = 2		# ループするかどうか[0:ループしない / 1:ループする]
+	NUM_KEY = 1		# キー数
+
+	KEYSET			# --- [ KEY : 6 / 7 ] ---
+		FRAME = 40
+		KEY
+			POS = 300.00 0.00 0.00
+			ROT = -0.38 -0.9 0.00
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = 0.31 -0.53 -0.09
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = -0.00 0.19 -0.03
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = 0.50 -0.79 0.53
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = 0.66 -0.38 -0.88
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = 0.03 0.00 0.00
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = 0.22 1.01 -0.91
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = 0.60 -0.44 0.00
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = 0.00 0.00 0.00
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = 1.04 -0.06 0.13
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = -0.94 0.00 0.00
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = -0.25 -0.03 -0.06
+		END_KEY
+
+		KEY
+			POS = 0.00 0.00 0.00
+			ROT = -0.63 0.35 0.00
+		END_KEY
+	END_KEYSET
+END_MOTIONSET
+
+
+#---------------------------------------
+# 近接攻撃
+#---------------------------------------
+#>>******************** [ここからコメントアウト] ********************
+END_SCRIPT		# この行は絶対消さないこと！

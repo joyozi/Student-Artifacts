@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\100 main,管理系">
+      <UniqueIdentifier>{decd6a4e-33b9-4a14-a421-8a3405c08a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\102 Mesh系">
+      <UniqueIdentifier>{4e759dcb-bf1d-4a13-bd5f-169465408545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\104 フェーズ系">
+      <UniqueIdentifier>{21da54b4-3b00-4da1-89c3-05cfb69fe860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\105 タイトル">
+      <UniqueIdentifier>{946510c0-4210-49b9-a89c-3bc228da1e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\107 リザルト">
+      <UniqueIdentifier>{a5504d71-bb19-413f-8835-9e37a66aec8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\100 main,管理関係">
+      <UniqueIdentifier>{02817708-4b3f-489f-95b2-d991d6a8df8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\102 Mesh系">
+      <UniqueIdentifier>{d1908780-24e3-4b1b-8201-d34f043e3a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\104 フェーズ関係">
+      <UniqueIdentifier>{74f3e52c-7a42-411d-88e7-268308a6f065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\107 リザルト">
+      <UniqueIdentifier>{fe91003b-250c-4214-ac88-81bd37b68cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\108 縮退ポリゴン">
+      <UniqueIdentifier>{357de133-7f21-47c8-8e3d-84b6d04038ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\108 縮退ポリゴン">
+      <UniqueIdentifier>{c58a56d9-f462-4947-8a6e-dcb3422dd36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\101 CScene系">
+      <UniqueIdentifier>{a9442842-1eb0-40f7-90e0-72f696bf273c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\109 エフェクト系">
+      <UniqueIdentifier>{285b85f8-583b-47a6-a49b-8848573d3b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\110 from先生">
+      <UniqueIdentifier>{35201976-a26c-466d-a0cf-b35faf287534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\110 from先生">
+      <UniqueIdentifier>{4a1cde0f-ca11-4005-aeef-83e44082f19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\111 パターン系">
+      <UniqueIdentifier>{9effcab6-2a0a-4eeb-aede-139f2917b39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\111 パターン系">
+      <UniqueIdentifier>{b9834f62-3062-42b0-8b49-a9a76cdfc76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\112 弾丸">
+      <UniqueIdentifier>{22fd0a39-8573-4be7-bf16-872c6747f312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\112 弾丸">
+      <UniqueIdentifier>{cfef0350-847a-4cc6-85d0-c2ef283c78d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\100 main,管理系\100_00 計算系">
+      <UniqueIdentifier>{25f7c005-0a65-41fd-aa7b-87978815f3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\100 main,管理関係\100_00 計算系">
+      <UniqueIdentifier>{4de75360-ce0e-4b78-aab8-694ea840bf60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\101 CScene系">
+      <UniqueIdentifier>{1435cac3-fd38-4f61-b92e-4e9691d9018d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\111 パターン系\00 プレイヤバレットパターン">
+      <UniqueIdentifier>{1389bc87-b5a9-4b79-bef4-ae9df25a1514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン">
+      <UniqueIdentifier>{3f0dca0c-8ec3-4770-b687-7724fb79eb1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\111 パターン系\01 敵バレットパターン">
+      <UniqueIdentifier>{5604c279-8ae8-46d7-831e-819ae8b68a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\111 パターン系\02 プレイヤモーションパターン">
+      <UniqueIdentifier>{49f7e421-2dea-42e1-a10b-b43b8c59ec57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\111 パターン系\03 敵モーションパターン">
+      <UniqueIdentifier>{812ed922-5617-454e-be3e-cad50300bcfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\111 パターン系\00 プレイヤバレットパターン">
+      <UniqueIdentifier>{4deac2df-7de1-4b27-bcef-bdf6b2f953bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\109 エフェクト系">
+      <UniqueIdentifier>{bf2b9907-f810-4b23-90ee-9971c662dd14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\111 パターン系\02 プレイヤモーションパターン\近接攻撃モーション">
+      <UniqueIdentifier>{9ddaba58-4b37-4861-8e2f-5ccc451cf32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\111 パターン系\02 プレイヤモーションパターン\射撃モーション">
+      <UniqueIdentifier>{a0c5e236-e803-4283-b50f-6e64b7697609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\111 パターン系\02 プレイヤモーションパターン\移動モーション">
+      <UniqueIdentifier>{1418d1e6-a73c-4546-8858-9200693c2566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\射撃モーション">
+      <UniqueIdentifier>{d57c68b5-ea26-488e-b6f0-597ea235813c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\移動モーション">
+      <UniqueIdentifier>{4017d036-a70b-4dea-b6cd-096597d869dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\その他のモーション">
+      <UniqueIdentifier>{b954f281-6f03-46a3-9dd4-c083ae36eced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\近接攻撃モーション">
+      <UniqueIdentifier>{512da9cd-0cbf-4ce3-a573-6b07bc78cc32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\111 パターン系\01 敵バレットパターン">
+      <UniqueIdentifier>{74c4a57a-2234-4f24-a952-980c1fe66017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\111 パターン系\03 敵モーションパターン">
+      <UniqueIdentifier>{caf9731d-7838-48e8-958f-4dc7e4eb697b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\111 パターン系\02 プレイヤモーションパターン\その他のモーション">
+      <UniqueIdentifier>{1803d534-e869-4841-921d-f598381cf063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\103 アイテム">
+      <UniqueIdentifier>{7ee73363-97c9-44b8-984d-bf2fc06f140d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\103 アイテム">
+      <UniqueIdentifier>{f9ec7844-6193-4aed-9cf9-6f3efc5c48e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\105 タイトル">
+      <UniqueIdentifier>{c01942aa-d06a-460d-addc-6fbf24dc87e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\106 ゲーム">
+      <UniqueIdentifier>{36ccce2c-b13b-438d-b162-e48e3bb73db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\106 ゲーム\GameUI">
+      <UniqueIdentifier>{9e050156-5b6d-4a0f-82ff-f14db1f01f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\106 ゲーム">
+      <UniqueIdentifier>{ba0aa13b-dfc2-4e60-8687-e4130e7dca31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\106 ゲーム\GameUI">
+      <UniqueIdentifier>{bd6bd1d1-b4d0-46ed-9c8d-ae68cf9f896c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\Renderer.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\WndProc.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CCamera.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CDebugProc.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CLight.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CManager.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CTextureManager.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CXFileManager.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\input.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\main.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CSceneX.cpp">
+      <Filter>ソース ファイル\101 CScene系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CScene.cpp">
+      <Filter>ソース ファイル\101 CScene系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CScene2D.cpp">
+      <Filter>ソース ファイル\101 CScene系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CScene3D.cpp">
+      <Filter>ソース ファイル\101 CScene系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CSceneBillboard.cpp">
+      <Filter>ソース ファイル\101 CScene系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CSceneMeshOrbit.cpp">
+      <Filter>ソース ファイル\101 CScene系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CSceneModelMotion.cpp">
+      <Filter>ソース ファイル\101 CScene系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CSceneModelParts.cpp">
+      <Filter>ソース ファイル\101 CScene系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CSceneStencilShadow.cpp">
+      <Filter>ソース ファイル\101 CScene系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CMeshBasisClass.cpp">
+      <Filter>ソース ファイル\102 Mesh系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CMeshSky.cpp">
+      <Filter>ソース ファイル\102 Mesh系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CTimer.cpp">
+      <Filter>ソース ファイル\103 アイテム</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CExplosion.cpp">
+      <Filter>ソース ファイル\103 アイテム</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CFade.cpp">
+      <Filter>ソース ファイル\103 アイテム</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CParticleSystem.cpp">
+      <Filter>ソース ファイル\103 アイテム</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CScore.cpp">
+      <Filter>ソース ファイル\103 アイテム</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPhase.cpp">
+      <Filter>ソース ファイル\104 フェーズ系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPhaseChange.cpp">
+      <Filter>ソース ファイル\104 フェーズ系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPhaseGame.cpp">
+      <Filter>ソース ファイル\104 フェーズ系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPhaseResult.cpp">
+      <Filter>ソース ファイル\104 フェーズ系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPhaseTitle.cpp">
+      <Filter>ソース ファイル\104 フェーズ系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPlayerModel.cpp">
+      <Filter>ソース ファイル\106 ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CCameraGame.cpp">
+      <Filter>ソース ファイル\106 ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CEnemy000.cpp">
+      <Filter>ソース ファイル\106 ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CEnemy001.cpp">
+      <Filter>ソース ファイル\106 ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CDegeneracyAnimation.cpp">
+      <Filter>ソース ファイル\108 縮退ポリゴン</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CDegeneracyPolygon.cpp">
+      <Filter>ソース ファイル\108 縮退ポリゴン</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CDegeneracyStar.cpp">
+      <Filter>ソース ファイル\108 縮退ポリゴン</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CBullet000.cpp">
+      <Filter>ソース ファイル\112 弾丸</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CInput_Controller.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CHitCheck.cpp">
+      <Filter>ソース ファイル\100 main,管理系\100_00 計算系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CItemList.cpp">
+      <Filter>ソース ファイル\100 main,管理系\100_00 計算系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CCharaMove.cpp">
+      <Filter>ソース ファイル\100 main,管理系\100_00 計算系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\sound.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CBulletHoming.cpp">
+      <Filter>ソース ファイル\112 弾丸</Filter>
+    </ClCompile>
+    <ClCompile Include="code\joystick.cpp">
+      <Filter>ソース ファイル\100 main,管理系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CMiniMap.cpp">
+      <Filter>ソース ファイル\106 ゲーム\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CBullet001.cpp">
+      <Filter>ソース ファイル\112 弾丸</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CEnemybullet000.cpp">
+      <Filter>ソース ファイル\112 弾丸</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CEnemyBullet001.cpp">
+      <Filter>ソース ファイル\112 弾丸</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CTargetUI.cpp">
+      <Filter>ソース ファイル\106 ゲーム\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CTitleMenu.cpp">
+      <Filter>ソース ファイル\105 タイトル</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPlayerMotionChanger.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPlayerMotionPatternMelee.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン\近接攻撃モーション</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPlayerMotionPatternSwordAttack.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン\近接攻撃モーション</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPlayerMotionPatternMissile.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン\射撃モーション</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPlayerMotionPatternShot.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン\射撃モーション</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPlayerMotionPatternNormal.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン\移動モーション</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPlayerMotionPatternDash.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン\移動モーション</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPrayerMotionPatternRapidUp.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン\移動モーション</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPrayerMotionPatternRapidDown.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン\移動モーション</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CBulletPatternEnemy001.cpp">
+      <Filter>ソース ファイル\111 パターン系\01 敵バレットパターン</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CEnemyIcon.cpp">
+      <Filter>ソース ファイル\106 ゲーム\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPause.cpp">
+      <Filter>ソース ファイル\106 ゲーム\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CBulletPatternDegeneracyshot.cpp">
+      <Filter>ソース ファイル\111 パターン系\00 プレイヤバレットパターン</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CParticleEngine.cpp">
+      <Filter>ソース ファイル\106 ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPlayerMotionPatternSwordAttack_2nd.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン\近接攻撃モーション</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CMissileGaze.cpp">
+      <Filter>ソース ファイル\106 ゲーム\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CEnemyWave.cpp">
+      <Filter>ソース ファイル\106 ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CExplosion000.cpp">
+      <Filter>ソース ファイル\109 エフェクト系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CMeshHitCheckBall.cpp">
+      <Filter>ソース ファイル\102 Mesh系</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CBulletPatternEnemy000.cpp">
+      <Filter>ソース ファイル\111 パターン系\01 敵バレットパターン</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CEnemyPattern000.cpp">
+      <Filter>ソース ファイル\111 パターン系\03 敵モーションパターン</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CEnemyPatternRandam.cpp">
+      <Filter>ソース ファイル\111 パターン系\03 敵モーションパターン</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPlayerMotionPatternDamaged.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン\その他のモーション</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CPlayerMotionPatternDie.cpp">
+      <Filter>ソース ファイル\111 パターン系\02 プレイヤモーションパターン\その他のモーション</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CGameStart.cpp">
+      <Filter>ソース ファイル\106 ゲーム\GameUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\CMeshSky.h">
+      <Filter>ヘッダー ファイル\102 Mesh系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CMeshBasisClass.h">
+      <Filter>ヘッダー ファイル\102 Mesh系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\main.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Renderer.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\WndProc.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CCamera.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CCommonData.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CDebugProc.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CLight.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CManager.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CTextureManager.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CXFileManager.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\input.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CTimer.h">
+      <Filter>ヘッダー ファイル\103 アイテム</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CExplosion.h">
+      <Filter>ヘッダー ファイル\103 アイテム</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CFade.h">
+      <Filter>ヘッダー ファイル\103 アイテム</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CParticleSystem.h">
+      <Filter>ヘッダー ファイル\103 アイテム</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CScore.h">
+      <Filter>ヘッダー ファイル\103 アイテム</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPhaseTitle.h">
+      <Filter>ヘッダー ファイル\104 フェーズ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPhase.h">
+      <Filter>ヘッダー ファイル\104 フェーズ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPhaseChange.h">
+      <Filter>ヘッダー ファイル\104 フェーズ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPhaseGame.h">
+      <Filter>ヘッダー ファイル\104 フェーズ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPhaseResult.h">
+      <Filter>ヘッダー ファイル\104 フェーズ関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CDegeneracyPolygon.h">
+      <Filter>ヘッダー ファイル\108 縮退ポリゴン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CDegeneracyStar.h">
+      <Filter>ヘッダー ファイル\108 縮退ポリゴン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CDegeneracyAnimation.h">
+      <Filter>ヘッダー ファイル\108 縮退ポリゴン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\data.h">
+      <Filter>ヘッダー ファイル\110 from先生</Filter>
+    </ClInclude>
+    <ClInclude Include="code\resource.h">
+      <Filter>ヘッダー ファイル\110 from先生</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CExplosion000.h">
+      <Filter>ヘッダー ファイル\109 エフェクト系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CBullet000.h">
+      <Filter>ヘッダー ファイル\112 弾丸</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CBulletPattern.h">
+      <Filter>ヘッダー ファイル\111 パターン系\00 プレイヤバレットパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CSceneStencilShadow.h">
+      <Filter>ヘッダー ファイル\101 CScene系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CSceneX.h">
+      <Filter>ヘッダー ファイル\101 CScene系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CScene.h">
+      <Filter>ヘッダー ファイル\101 CScene系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CScene2D.h">
+      <Filter>ヘッダー ファイル\101 CScene系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CScene3D.h">
+      <Filter>ヘッダー ファイル\101 CScene系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CSceneBillboard.h">
+      <Filter>ヘッダー ファイル\101 CScene系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CSceneMeshOrbit.h">
+      <Filter>ヘッダー ファイル\101 CScene系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CSceneModelMotion.h">
+      <Filter>ヘッダー ファイル\101 CScene系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CSceneModelParts.h">
+      <Filter>ヘッダー ファイル\101 CScene系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CBulletPatternNone.h">
+      <Filter>ヘッダー ファイル\111 パターン系\00 プレイヤバレットパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CBulletPattern1Shot.h">
+      <Filter>ヘッダー ファイル\111 パターン系\00 プレイヤバレットパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CInput_Controller.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CEnemybullet000.h">
+      <Filter>ヘッダー ファイル\112 弾丸</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CItemList.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係\100_00 計算系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CHitCheck.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係\100_00 計算系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CCharaMove.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係\100_00 計算系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\sound.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CBulletHoming.h">
+      <Filter>ヘッダー ファイル\112 弾丸</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CBulletPatternHoming.h">
+      <Filter>ヘッダー ファイル\111 パターン系\00 プレイヤバレットパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\joystick.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CBullet001.h">
+      <Filter>ヘッダー ファイル\112 弾丸</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CStructure.h">
+      <Filter>ヘッダー ファイル\100 main,管理関係</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CBulletPatternDegeneracyShot.h">
+      <Filter>ヘッダー ファイル\111 パターン系\00 プレイヤバレットパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPattern.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CEnemyBullet001.h">
+      <Filter>ヘッダー ファイル\112 弾丸</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionChanger.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CEnemyPattern.h">
+      <Filter>ヘッダー ファイル\111 パターン系\03 敵モーションパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CEnemyPattern000.h">
+      <Filter>ヘッダー ファイル\111 パターン系\03 敵モーションパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CEnemyPatternRandam.h">
+      <Filter>ヘッダー ファイル\111 パターン系\03 敵モーションパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CEnemyPatternStop.h">
+      <Filter>ヘッダー ファイル\111 パターン系\03 敵モーションパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CBulletPatternEnemy000.h">
+      <Filter>ヘッダー ファイル\111 パターン系\01 敵バレットパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CBulletPatternEnemy001.h">
+      <Filter>ヘッダー ファイル\111 パターン系\01 敵バレットパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPatternDamaged.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\その他のモーション</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPatternDash.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\移動モーション</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPatternNormal.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\移動モーション</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPatternMissile.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\射撃モーション</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPatternShot.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\射撃モーション</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPatternMelee.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\近接攻撃モーション</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPatternSwordAttack.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\近接攻撃モーション</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPatternRapidDown.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\移動モーション</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPatternRapidUp.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\移動モーション</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPatternSwordAttack_2nd.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\近接攻撃モーション</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CMeshHitCheckBall.h">
+      <Filter>ヘッダー ファイル\102 Mesh系</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerMotionPatternDie.h">
+      <Filter>ヘッダー ファイル\111 パターン系\02 プレイヤモーションパターン\その他のモーション</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CMissileGaze.h">
+      <Filter>ヘッダー ファイル\106 ゲーム\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPause.h">
+      <Filter>ヘッダー ファイル\106 ゲーム\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CTargetUI.h">
+      <Filter>ヘッダー ファイル\106 ゲーム\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CEnemyIcon.h">
+      <Filter>ヘッダー ファイル\106 ゲーム\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CMiniMap.h">
+      <Filter>ヘッダー ファイル\106 ゲーム\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CParticleEngine.h">
+      <Filter>ヘッダー ファイル\106 ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CPlayerModel.h">
+      <Filter>ヘッダー ファイル\106 ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CEnemy000.h">
+      <Filter>ヘッダー ファイル\106 ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CEnemy001.h">
+      <Filter>ヘッダー ファイル\106 ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CEnemyWave.h">
+      <Filter>ヘッダー ファイル\106 ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CTitleMenu.h">
+      <Filter>ヘッダー ファイル\105 タイトル</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CGameStart.h">
+      <Filter>ヘッダー ファイル\106 ゲーム\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CCameraGame.h">
+      <Filter>ヘッダー ファイル\106 ゲーム\GameUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GM31.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
